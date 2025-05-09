@@ -2,7 +2,6 @@
 // @ts-strict-ignore
 import { importProvidersFrom, signal } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-import { action } from "@storybook/addon-actions";
 import {
   applicationConfig,
   componentWrapperDecorator,
@@ -11,6 +10,7 @@ import {
   StoryObj,
 } from "@storybook/angular";
 import { BehaviorSubject } from "rxjs";
+import { action } from "storybook/actions";
 
 import { CollectionView } from "@bitwarden/admin-console/common";
 import { ViewCacheService } from "@bitwarden/angular/platform/abstractions/view-cache.service";

@@ -10,7 +10,7 @@ import {
   fireEvent,
   getByText,
   getAllByLabelText,
-} from "@storybook/test";
+} from "storybook/test";
 
 import { I18nService } from "@bitwarden/common/platform/abstractions/i18n.service";
 
