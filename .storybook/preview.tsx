@@ -26,6 +26,7 @@ const preview: Preview = {
     wrapperDecorator,
   ],
   parameters: {
+    useTestBedRenderer: true,
     controls: {
       matchers: {
         color: /(background|color)$/i,
